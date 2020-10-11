@@ -1,0 +1,61 @@
+body{
+    font-size: 20px;
+    font-family: monospace;
+    background-color: salmon;
+}
+
+#container{
+    margin : 20px auto;
+    height: 300px;
+    width : 700px;
+   
+    position: relative;
+    background-color:salmon;
+}
+#start{
+    font-size: 50px;
+    font-weight: bolder;
+    word-break: break-all;
+    width:100px;
+    height:100px;
+    
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left:300px;
+    top:50px;
+    color : black;
+    background-color: salmon;
+    font-family: 'Pirata One', cursive;
+}
+#question{
+    width:700px;
+    height : 300px;
+    position: absolute;
+    right:0;
+    top:0;
+    text-align: center;
+    background-color: salmon;
+    font-family: 'Pirata One', cursive;
+    font-size: 40px;
+}
+
+#choices{
+    width : 485px;
+    position: absolute;
+    right : 0;
+    top : 125px;
+    padding : 10px
+    
+}
+
+.choice{
+    display: inline-block;
+    width : 200px;
+    margin:10px;
+    text-align: center;
+    background: black;
+    color: white;
+    padding : 15px;
+    font-family: 'Pirata One', cursive;
+}
